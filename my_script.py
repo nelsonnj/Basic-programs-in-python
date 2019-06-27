@@ -1,5 +1,8 @@
 ''' Array using numpy module '''
 import numpy as np
+import matplotlib.pyplot as plt
+
+
 x=np.array([1,2,3.4,8,12])
 
 # Printing array
@@ -23,3 +26,12 @@ print(max_val)
 min_val=np.min(x)
 
 print(min_val)
+
+
+y=np.linspace(0,1,5)
+
+print(y)
+
+
+plt.plot(x,y)
+plt.show()
