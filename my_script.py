@@ -33,5 +33,13 @@ y=np.linspace(0,1,5)
 print(y)
 
 
+# Array multiplication
+
+z=x*y;
+
+print(z)
+
+
+# Showing in graph
 plt.plot(x,y)
 plt.show()
